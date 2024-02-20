@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-esml
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0030-tenant/tkrw-pr714-0075-0030-app/devfile-sample-esml@sha256:1503700760a8d0f188b33bde157a44a47e6cfe7ff2cbbf319ffbe2a58958c689
         name: my-nodejs
         ports:
         - containerPort: 3001
